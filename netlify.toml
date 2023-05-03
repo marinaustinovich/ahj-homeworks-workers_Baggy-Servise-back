@@ -1,0 +1,7 @@
+[build]
+   functions = "functions" # Путь к папке с функциями Netlify
+
+ [[redirects]]
+   from = "/*"
+   to = "/.netlify/functions/server"
+   status = 200
